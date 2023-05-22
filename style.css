@@ -1,0 +1,338 @@
+.header{
+    background-color: rgba(22, 22, 23, .8);
+    height: 40px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.header a{
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1;
+    color: #E8E8ED;
+    margin-left: 20px;    
+    padding: 20px 20px;
+}
+.header div{
+    margin-left: 20px;
+}
+.header a :hover{
+    color: #FFFFFF;
+}
+.material-symbols-outlined {
+    margin-top: -10px;
+    font-size:18px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.main-body-first-div{
+    background-color: rgb(248, 246, 246);
+
+}
+.main-body-first-div span{
+    text-align: center;
+    font-size: 14px;
+}
+.main-body-second{
+    background-image: url("https://www.apple.com/v/home/az/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    width:device-width;
+    height: 624px;
+}
+.main-body-second:hover{
+    cursor: pointer;
+}
+.main-body-iphone11{
+    background-image: url("https://www.apple.com/v/home/az/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:device-width;
+    height: 624px;
+}
+.main-body-iphone11{
+    cursor: pointer;
+}
+.header li{
+    display: inline;
+    float: left;
+}
+.header li a{
+    display: block;
+    padding: 8px;
+    padding-top: 20px;
+}
+.header:hover{
+    background-color: black;
+}
+.main-body-flex-container p{
+    text-align: center;
+}
+.headline{
+    color: white;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 56px;
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+    font-weight: 600;
+    line-height: 1.07143;
+}
+.main-body-white-headline{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 56px;
+    text-align: center;
+    display: block;
+}
+.subhead{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+    text-align: center;
+    font-size:28px;
+    margin-top: -35px;
+    font-weight: 400;
+}
+.main-body-white-subhead{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    font-size:28px;
+    margin-top: -35px;
+    font-weight: 400;
+}
+.main-body-links{    
+    text-align: center;
+    margin-top: -11px;
+    
+}
+.main-body-links a{    
+    font: 21px "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #2997ff;
+    text-decoration: none;
+    margin-right: 35px;
+}
+.iphone-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.tradein-container{
+    background-image: url("https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large.jpg");
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.tradein-container:hover{
+    cursor: pointer;
+}
+.tradeIn-headline{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+}
+.tradeIn-subhead{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    margin-top: 10px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: -25px;
+}
+.trade-links {
+    font: 21px "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #2997ff;
+}
+.wwwdc-container{
+    background-image: url("https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large.jpg");
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wwwdc-container:hover{
+    cursor: pointer;
+}
+.wwwdc-headline{
+    color:white;
+    font: 21px "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 40px;   
+    margin-top: 354px;
+    text-align: center;
+}
+.wwdc-subhead{
+    color:white;
+    font: 21px "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -25px;
+}
+.watch-subhead{
+    color:white;
+    font: 21px "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -25px;
+}
+.watch-container{
+    background-image: url("https://www.apple.com/v/home/az/images/promos/apple-watch-series-8/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg");
+    height: 580px;
+    background-size: cover contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 90px;
+}
+.watch-container:hover{
+    cursor: pointer;
+}
+.watch-headline{
+    color:white;
+    font: 21px "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 40px;   
+    text-align: center;
+}
+.watch-container p{
+    color: rgb(206, 34, 34);
+    font: 12px "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+.ipad-container{
+    background-image: url("https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg");
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ipad-container:hover{
+    cursor: pointer;
+}
+.mac-container{
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    margin-right: 145px;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg");
+}
+.mac-container:hover{
+    cursor: pointer;
+}
+.card-container{
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/home/az/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg");
+}
+.card-container:hover{
+    cursor: pointer;
+}
+.slideshow-container{
+    background-image: url("/images/slideshowdemo.PNG");
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.slideshow-container:hover{
+    cursor: pointer;
+}
+.apple-footer {
+    margin: 0;
+    padding: 5px;
+    background-color:#f5f5f7; 
+    color: #6e6e73;   
+}
+
+.apple-footer a{
+    color: #424245;
+}
+.apple ul{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.no-bullets{
+    list-style-type: none;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 12px;
+    font-weight: 400;    
+}
+.no-bullets li{
+      margin-bottom: 10px;
+}
+.no-bullets a{
+    text-decoration: none;
+}
+.no-bullets a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;    
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.footer-content{
+    max-width: 980px;
+    padding-left: 200px;
+    padding-right: max(22px,env(safe-area-inset-right));
+    text-align: justify;
+}
+h4{
+    font-weight: 700;
+    color: #424245;
+}
+.footer-content-no-bullets{
+    list-style-type: none;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 12px;
+    font-weight: 400; 
+}
+.footer-grid-container div{
+    padding-right: 0px;
+}
+.footer-content-no-bullets li{
+    margin-bottom: 10px;
+}
+.footer-last-content{
+    padding-left: 240px;
+    padding-right: 200px;
+}
+.footer-last-content a{
+    color: rgb(0, 102, 204);
+    font-size: 14px;
+}
+.footer-last-copy-content{
+    padding-left: 240px;
+    padding-right: 200px;
+    font-size: 12px;
+}
+.footer-last-copy-content a:hover{
+    text-decoration: underline;
+}
+.footer-last-copy-content a{
+    margin-left: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+}
